@@ -2,7 +2,7 @@
   "model": {
     "type" : "chatgpt",
     "openai": {
-      "api_key": "your api key",
+      "api_key": "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",
       "model": "gpt-3.5-turbo",
       "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
       "conversation_max_tokens": 1000
@@ -10,14 +10,11 @@
   },
 
   "channel": {
-    "type": "telegram",
+    "type": "wechat_mp",
 
-    "telegram": {
-      "bot_token": "your bot token",
-      "single_chat_users": ["techxiaofei"],
-      "group_chat_list": ["科技小飞哥的粉丝群"],
-      "group_chat_prefix": ["@techxiaofei","@botxiaofei_bot"],
-      "group_chat_keyword": ["大神", "小飞", "群主"]
+    "wechat_mp": {
+      "token": "abcdefghijklmnopqrstuvwxyz",
+      "port": "80"
     }
   }
 }
