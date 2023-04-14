@@ -14,10 +14,10 @@
 
     "telegram": {
       "bot_token": "your bot token",
-      "single_chat_users": ["techxiaofei"],
-      "group_chat_list": ["科技小飞哥的粉丝群"],
+      "single_chat_users": ["ALL_USERS"],
+      "group_chat_list": ["ALL_GROUP"],
       "group_chat_prefix": ["@techxiaofei","@botxiaofei_bot"],
-      "group_chat_keyword": ["大神", "小飞", "群主"]
+      "group_chat_keyword": ["大神", "群主"]
     }
   }
 }
